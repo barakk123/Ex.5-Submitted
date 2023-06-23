@@ -37,7 +37,7 @@ function updateBookList(category) {
         });
 }
 
-// Update the background color based on cursor position, only for nav.
+// Update the background color(nav) based on cursor position.
 document.addEventListener("mousemove", function(event) {
     var x = event.clientX;
   
