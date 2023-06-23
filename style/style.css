@@ -1,0 +1,165 @@
+
+body {
+    font-family: Helvetica;
+    background-color: rgb(32, 32, 32);
+    margin: 0px;
+    color: none;
+}
+
+#book-details {
+    color: whitesmoke;
+    margin-left: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img.book-image-in-books {
+    width: auto;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+
+}
+
+img.book-image {
+    width: 250px;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.book-image:hover {
+    transform: scale(1.1);
+}
+
+#book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.book {
+    width: 250px;
+    height: 648px;
+    border-radius: 8px;
+    border-color: black;
+    margin: 8px;
+    padding: 16px 20px;
+}
+
+.book-name {
+    height: 60px;
+    margin: 0px;
+    margin-top: 24px;
+    color: white;
+}
+
+.author-name {
+    margin: 0px;
+    color: #979797;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+nav {
+    width: 100%;
+    background-color: whitesmoke;
+    height: 80px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.headline {
+    margin: 0px;
+}
+
+#category-select {
+    width: 200px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma;
+    padding: 6px;
+    color: #000000;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+#category-select:hover {
+    border-color: #ac0101;
+    border-radius: 8px;
+}
+
+#category-select:focus {
+    outline: none;
+    border-color: #007BFF;
+}
+
+.info-button {
+    display: inline-block;
+    width: 234px;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 16px 8px;
+    border: 1px solid white;
+    border-radius: 8px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.info-button:hover {
+    background-color: #000000cd;
+    transition: background-color 0.6s ease;
+}
+
+#in-book {
+    display: inline-table;
+    font-size: 24px;
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.color1 {
+    background-color: red;
+  }
+  
+  .color2 {
+    background-color: blue;
+  }
+  
+  .color3 {
+    background-color: yellow;
+  }
+  
+  .color4 {
+    background-color: green;
+  }
+  
+  .color5 {
+    background-color: orange;
+  }
+  
+  .color6 {
+    background-color: purple;
+  }
+  
+  /* Update the background color based on cursor position */
+  nav:hover {
+    background-color: var(--color);
+  }
+
+ 
