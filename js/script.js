@@ -37,7 +37,7 @@ function updateBookList(category) {
         });
 }
 
-// Update the background color based on cursor position
+// Update the background color based on cursor position, only for nav.
 document.addEventListener("mousemove", function(event) {
     var x = event.clientX;
   
@@ -48,7 +48,6 @@ document.addEventListener("mousemove", function(event) {
     var color5 = 'orange';
     var color6 = 'purple';
   
-    // Define the range of each color
     var range = window.innerWidth / 6;
   
     if (x < range) {
